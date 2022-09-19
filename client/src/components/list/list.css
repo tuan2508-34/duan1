@@ -1,0 +1,118 @@
+
+.list_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.list_table{
+    width:80% ;
+    height: 45px;
+
+    
+}
+.sub2 th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub{
+    
+    background-color:#188754  ;
+    color: white;
+}
+.sub2{
+    width: 100%;
+    background-color: gainsboro;
+    overflow-y: scroll;
+}
+
+.item1{
+    width: 5%;
+}
+.item2{
+    width: 20%;
+}
+.item3{
+    width: 16%;
+}
+.item4{
+    width: 14%;
+}
+.item5{
+    width: 15%;
+}
+.item6{
+    width: 15%;
+}
+.item7{
+    width: 15%;
+    
+ 
+}
+.tem1{
+    width: 5%;
+}
+.tem2{
+    width: 20.3%;
+}
+.tem3{
+    width: 16.3%;
+}
+.tem4{
+    width: 14.2%;
+}
+.tem5{
+    width: 15.3%;
+}
+.tem6{
+    width: 15.2%;
+}
+.tem7{
+    width: 15.3%;
+    
+ 
+}
+.but{
+    padding: 4%;
+    color: white;
+    border-radius: 3px;
+    border:none;
+}
+.but:hover{
+    opacity: 0.5;
+}
+.list_sua{
+    background-color: blue;
+    margin-right: 2%;
+}
+.list_xoa{
+    background-color: red;
+    margin-left: 2%;
+}
+.sss{
+    width: 80%;
+    overflow-y: scroll;
+    height: 450px;
+    border:1px solid rgb(134, 133, 133,0.4);
+    background-image: url('https://pkmacbook.com/wp-content/uploads/2021/06/background-dep-ve-y-te_034616505.jpg');
+
+}
+
+table, th, td{
+    border:1px solid rgb(134, 133, 133,0.2);
+}
+table{
+    border-collapse:collapse;
+}
+table tr:nth-child(odd){
+    background-color:#eee;
+}
+table tr:nth-child(even){
+    background-color:white;
+}
+.sub tr:nth-child(1){
+    background-color:#188754;
+}
